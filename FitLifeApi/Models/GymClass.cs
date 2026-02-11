@@ -32,4 +32,23 @@ public class GymClass
     [Range(5, 30, ErrorMessage = "Solo se aceptan clases entre 5 y 30 alumnos.")]
     public int CupoMaximo {get; set;}
 
+    public bool DuracionValida(int duracion) // para chechear validez en el controller
+    {
+        if (duracion == 60 ||
+            duracion == 90 ||
+            duracion == 120)
+        {
+            return true;
+        } else
+        {
+            return false;
+        }
+    }
+
+    public DateTime HoraFin() // para checkear solapamiento
+    {
+        DateTime fin = HoraInicio;
+        fin.AddMinutes(DuracionMinutos);
+        return fin;
+    }
 }

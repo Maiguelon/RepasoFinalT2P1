@@ -34,5 +34,14 @@
     "HoraInicio": "2026-02-11T14:00:00",
     "DuracionMinutos": 60,
     "CupoMaximo": 10
+  },
+  {
+    "Id": 5,
+    "Nombre": "Karate",
+    "Instructor": "Paco Alcacer",
+    "Dia": 4,
+    "HoraInicio": "2026-02-11T14:00:00",
+    "DuracionMinutos": 60,
+    "CupoMaximo": 10
   }
 ]
