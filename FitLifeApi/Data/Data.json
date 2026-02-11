@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "CrossFit Extremo",
+    "Instructor": "Juan Perez",
+    "Dia": "Lunes",
+    "HoraInicio": 10,
+    "DuracionMinutos": 60,
+    "CupoMaximo": 20
+  },
+  {
+    "Id": 2,
+    "Nombre": "Zumba",
+    "Instructor": "Maria Lopez",
+    "Dia": "Lunes",
+    "HoraInicio": 18,
+    "DuracionMinutos": 90,
+    "CupoMaximo": 30
+  },
+  {
+    "Id": 3,
+    "Nombre": "Yoga Morning",
+    "Instructor": "Ana Garcia",
+    "Dia": "Martes",
+    "HoraInicio": 8,
+    "DuracionMinutos": 120,
+    "CupoMaximo": 15
+  }
+]
