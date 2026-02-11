@@ -3,8 +3,8 @@
     "Id": 1,
     "Nombre": "CrossFit Extremo",
     "Instructor": "Juan Perez",
-    "Dia": "Lunes",
-    "HoraInicio": 10,
+    "Dia": 1,
+    "HoraInicio": "2026-02-09T10:00:00",
     "DuracionMinutos": 60,
     "CupoMaximo": 20
   },
@@ -12,8 +12,8 @@
     "Id": 2,
     "Nombre": "Zumba",
     "Instructor": "Maria Lopez",
-    "Dia": "Lunes",
-    "HoraInicio": 18,
+    "Dia": 1,
+    "HoraInicio": "2026-02-09T18:00:00",
     "DuracionMinutos": 90,
     "CupoMaximo": 30
   },
@@ -21,9 +21,18 @@
     "Id": 3,
     "Nombre": "Yoga Morning",
     "Instructor": "Ana Garcia",
-    "Dia": "Martes",
-    "HoraInicio": 8,
+    "Dia": 2,
+    "HoraInicio": "2026-02-10T08:00:00",
     "DuracionMinutos": 120,
     "CupoMaximo": 15
+  },
+  {
+    "Id": 4,
+    "Nombre": "Pilates",
+    "Instructor": "Pedro Silva",
+    "Dia": 3,
+    "HoraInicio": "2026-02-11T14:00:00",
+    "DuracionMinutos": 60,
+    "CupoMaximo": 10
   }
 ]
